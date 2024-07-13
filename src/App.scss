@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Jost&family=Roboto&family=Ubuntu&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; 
+  font-family: 'Roboto', sans-serif;
+}
+
+
+  @media screen and (max-width : 550px) {
+    h1{
+    font-size: 1.5rem;
+    }
+    h2{
+      font-size: 1.2rem;
+    }
+    h3{
+      font-size: 1rem;
+    }
+    h5{
+      font-size: 0.8rem !important;
+    }
+  }
+
+  @media screen and (max-width : 430px) {
+    h1{
+      font-size: 1.2rem;
+    }
+    h2{
+      font-size: 1rem;
+    }
+  }
